@@ -1,0 +1,47 @@
+body{
+  background-color: #FCECC9;
+  margin: 2%;
+  border: solid black;
+  padding: 25px;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 20px;
+}
+#ImageView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  margin: 0 auto 20px;
+  line-height: 500px;
+  background-color: white;
+  border: solid black 3px;
+  font-size: 20px;
+}
+#desc {
+  text-align: center;
+  font-size: 24px;
+  min-height: 40px;
+  margin: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+.Preview {
+  width:150px;
+  border: 2px solid black;
+  object-fit: cover;
+}
